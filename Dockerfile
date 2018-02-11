@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:8.9.4
 
 # Global install yarn package manager
 RUN apt-get update && apt-get install -y git apt-transport-https
